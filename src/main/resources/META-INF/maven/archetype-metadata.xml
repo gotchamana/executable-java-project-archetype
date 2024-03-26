@@ -7,6 +7,21 @@
     </requiredProperties>
 
     <fileSets>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory></directory>
+            <includes>
+                <include>parent.xml</include>
+                <include>README.md</include>
+            </includes>
+        </fileSet>
+
+        <fileSet filtered="false" encoding="UTF-8">
+            <directory></directory>
+            <includes>
+                <include>__gitignore__</include>
+            </includes>
+        </fileSet>
+
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
             <directory>src/main/java</directory>
             <includes>
@@ -18,20 +33,6 @@
             <directory>src/test/java</directory>
             <includes>
                 <include>**/*.java</include>
-            </includes>
-        </fileSet>
-
-        <fileSet filtered="true" encoding="UTF-8">
-            <directory></directory>
-            <includes>
-                <include>parent.xml</include>
-            </includes>
-        </fileSet>
-
-        <fileSet>
-            <directory></directory>
-            <includes>
-                <include>__gitignore__</include>
             </includes>
         </fileSet>
     </fileSets>
