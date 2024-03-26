@@ -28,6 +28,11 @@
                     <artifactId>maven-archetype-plugin</artifactId>
                     <version>3.2.0</version>
                 </plugin>
+
+                <plugin>
+                    <artifactId>maven-wrapper-plugin</artifactId>
+                    <version>3.2.0</version>
+                </plugin>
             </plugins>
         </pluginManagement>
 
